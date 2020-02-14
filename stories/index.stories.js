@@ -11,3 +11,12 @@ export const Button = () => {
   btn.addEventListener('click', e => console.log(e));
   return btn;
 };
+
+
+export const withText = () => '<button class="btn">Hello World</button>';
+
+export const withEmoji = () => {
+  const button = document.createElement('button');
+  button.innerText = '😀 😎 👍 💯';
+  return button;
+};
