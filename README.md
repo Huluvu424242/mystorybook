@@ -12,7 +12,7 @@ or 2) classic method
 npm run storybook
  ```
 
-## add a component
+## add a component story
 
 1. install the component local
 ```
