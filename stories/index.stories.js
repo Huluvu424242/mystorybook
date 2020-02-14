@@ -1,6 +1,10 @@
+import { configure } from 'liona-speech-input';
+
 export default {
   title: 'Demo',
 };
+
+export const speechExample = () => '<liona-speech-input></liona-speech-input>';
 
 export const Heading = () => '<h1>Hello World</h1>';
 
@@ -20,3 +24,6 @@ export const withEmoji = () => {
   button.innerText = '😀 😎 👍 💯';
   return button;
 };
+
+
+

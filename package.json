@@ -19,7 +19,9 @@
     "url": "https://github.com/FunThomas424242/mystorybook/issues"
   },
   "homepage": "https://github.com/FunThomas424242/mystorybook#readme",
-  "dependencies": {},
+  "dependencies": {
+    "liona-speech-input": "0.0.4"
+  },
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@storybook/html": "^5.3.13",
