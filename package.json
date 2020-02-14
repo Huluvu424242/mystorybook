@@ -1,0 +1,28 @@
+{
+  "name": "mystorybook",
+  "version": "1.0.0",
+  "description": "Storybook of my webcomponents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FunThomas424242/mystorybook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FunThomas424242/mystorybook/issues"
+  },
+  "homepage": "https://github.com/FunThomas424242/mystorybook#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@storybook/html": "^5.3.13",
+    "babel-loader": "^8.0.6"
+  }
+}
