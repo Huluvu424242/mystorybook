@@ -1,10 +1,15 @@
-import { configure } from 'liona-speech-input';
+"use strict";
+
+import LionaSpeechInput from 'liona-speech-input';
 
 export default {
-  title: 'Demo',
+  title: 'Liona Speech Input',
+  component: LionaSpeechInput,
+  includeStories: ["simpleStory","complexStory"]
 };
 
-export const speechExample = () => '<liona-speech-input></liona-speech-input>';
+export const simpleStory = () => '<liona-speech-input></liona-speech-input>';
+export const complexStory = () => '<liona-speech-input></liona-speech-input>';
 
 export const Heading = () => '<h1>Hello World</h1>';
 
