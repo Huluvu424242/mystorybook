@@ -22,7 +22,7 @@ npm install <component-name>
 npm install liona-speech-input
 ```
 
-2. add the import to index.stories.js
+2. add the import to liona-speech-input.stories.js
 ```
 import { configure } from 'liona-speech-input';
 ```
